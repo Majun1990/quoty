@@ -3,7 +3,11 @@ class QuotesController < ApplicationController
     @quote = Quote.order("RANDOM()").first
   end
 
-  def create
+  def new
     @quote = Quote.new
+  end
+
+  def create
+
   end
 end
