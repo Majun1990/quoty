@@ -31,10 +31,25 @@
     </header>
 
     <hr />
-    
+
     <br class="clear" />
 
+  <div class="container">
     <%= yield %>
+  </div>
 
+  <div class="footer">
+    <div class="containter">
+      <div class="row">
+        <div class="col-6">
+          <%= link_to "This isn't enough, I need more", "#", class: "next-quote" %>
+        </div>
+        <div class="col-6 footer-blurb">
+          Proudly hacked by <a href="https://merijunallen.netlify.com">Merijun Allen</a><br />
+          Want to build your own Quoty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+        </div>        
+      </div>
+    </div>
+  </div>
   </body>
 </html>
