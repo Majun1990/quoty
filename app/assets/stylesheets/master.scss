@@ -52,14 +52,19 @@ hr {
 
 h1 {
   font-family: 'McLaren', cursive;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: -1.5px;
+  font-size: 48px;
 }
 
 h2 {
   font-family: 'McLaren', cursive;
   font-weight: 600;
   letter-spacing: -1.5px;  
+}
+
+h2 span {
+  color: gray;
 }
 
 .next-quote {
@@ -81,4 +86,18 @@ h2 {
 
 .about {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+@media (max-width:750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'McLaren', cursive;
+}
+
+::selection {
+  background-color: #f84342;
 }
